@@ -21,6 +21,8 @@ ul {
 a {
     text-decoration: none;
     color: var(--dark-blue);
+    width: 100%;
+    display: block;
 }
 
 .nav {
@@ -36,6 +38,10 @@ a {
     padding: 0.4rem;
     margin: 0.3rem 1rem;
     font-size: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 .nav aside {
@@ -55,6 +61,7 @@ a {
     background-color: white;
 }
 
-.btn:focus+aside {
+.btn:focus+aside,
+aside:hover {
     right: 0;
 }
