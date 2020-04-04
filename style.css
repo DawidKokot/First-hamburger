@@ -38,8 +38,9 @@ ul {
     height: 100vh;
     width: 250px;
     top: 45px;
-    right: 0;
+    right: -250px;
     background-color: #34B399;
+    transition: right 300ms ease;
 }
 
 .nav li {
@@ -48,4 +49,8 @@ ul {
     border-radius: 5px;
     color: var(--dark-blue);
     background-color: white;
+}
+
+.btn:focus+aside {
+    right: 0;
 }
