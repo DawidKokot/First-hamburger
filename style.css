@@ -10,16 +10,15 @@ body {
     height: 100vh;
 }
 
-header {
+.nav {
     background-color: #4A4D6D;
     overflow: hidden;
 }
 
-header p {
+.btn {
     float: right;
     background-color: #fff;
     border-radius: 5px;
     padding: 0.4rem;
     margin: 0.3rem 1rem;
-    width: fit-content;
 }
