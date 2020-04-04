@@ -12,4 +12,14 @@ body {
 
 header {
     background-color: #4A4D6D;
+    overflow: hidden;
+}
+
+header p {
+    float: right;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 0.3rem 1rem;
+    width: fit-content;
 }
